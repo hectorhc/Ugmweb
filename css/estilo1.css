@@ -10,7 +10,7 @@ header
 	background: #344b54;
 	color: white;
 	overflow: hidden;
-	padding: 0.5;
+	padding: 0.5em;
 	position: relative;
 }
 header figure
@@ -38,7 +38,7 @@ header h1
 }
 header #logo
 {
-	border-right: 1px solid white;
+	border-right: 2px solid white;
 	margin-right: 0.5em;
     padding-right: 0.5em;
     width: 52px;
@@ -48,7 +48,7 @@ header #logo img
 	
 	margin-right: 0.5em;
 	padding-right: 0.5em;
-	width: 52px; 
+	width: 52px;
 }
 nav 
 {
@@ -66,7 +66,6 @@ nav ul li
 	display: inline-block;
 	margin: 0 0.5em 0 0;
 	
-
 } 
 nav ul li a
 {
@@ -93,4 +92,38 @@ nav ul #login a
     padding: 0.6em 0.8em;
     text-shadow:rgba(0,0,0,0.5) 5px 5px 20px;
 
+}
+section 
+{
+	background: #FFFFFF;
+	border-bottom: 3px solid #22BCE0;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px; 
+	margin: 0.7em;
+	width: 1024px;
+	width: 470px;
+
+}
+article h2 p 
+{
+	position: absolute;
+	left: 900px;
+	top: 150px;
+	background: #22BCE0;
+	border-radius: 5px;
+	color: white;
+	font-style: italic;
+    padding: 0.1em;
+    text-shadow:rgba(0,0,0,0.5) 5px 5px 20px;
+   
+}
+section figure img 
+{
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	width: 470px;
+}
+footer
+{
+	
 }
